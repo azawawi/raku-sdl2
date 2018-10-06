@@ -1,7 +1,7 @@
 {
   "name"          : "SDL2",
   "license"       : "MIT",
-  "version"       : "0.0.1",
+  "version"       : "0.0.2",
   "perl"          : "6.c",
   "description"   : "SDL2 with some OO-sugar.",
   "test-depends"  : [
