@@ -19,13 +19,11 @@ install:
   - 7z x %SDL2_ARCHIVE%
   # Refresh environment variables so zef works
   - refreshenv
-  # Install package verbosely using zef
-  - zef install SDL2 --verbose
 
 build: off
 
 test_script:
   # Test for fun :)
-  - prove -v -e "perl6 -Ilib" t/
+  - zef install . --verbose
 
 shallow_clone: true
