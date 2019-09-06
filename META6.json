@@ -6,7 +6,7 @@
   "description"   : "SDL2 with some OO-sugar.",
   "test-depends"  : [
     "Test",
-    "SDL2::Raw"
+    "SDL2::Raw:ver<0.2+>"
   ],
   "auth"          : "github:azawawi",
   "authors"       : [ "Ahmad M. Zawawi" ],
