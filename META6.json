@@ -1,7 +1,7 @@
 {
   "name"          : "SDL2",
   "license"       : "MIT",
-  "version"       : "0.0.2",
+  "version"       : "0.0.3",
   "perl"          : "6.c",
   "description"   : "SDL2 with some OO-sugar.",
   "test-depends"  : [
@@ -10,7 +10,8 @@
   ],
   "auth"          : "github:azawawi",
   "authors"       : [ "Ahmad M. Zawawi" ],
-  "provides"      : {
+    "provides"      : {
+	"SDL2"       : "lib/SDL2.pm6",
     "SDL2::Window"   : "lib/SDL2/Window.pm6",
     "SDL2::Renderer" : "lib/SDL2/Renderer.pm6"
   },
