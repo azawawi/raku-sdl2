@@ -1,7 +1,7 @@
 #
 # Dynamically setting a window title
 #
-# Adapted to Perl 6 from
+# Adapted to Raku from
 # https://wiki.libsdl.org/SDL_SetWindowTitle?highlight=%28%5CbCategoryVideo%5Cb%29%7C%28CategoryEnum%29%7C%28CategoryStruct%29
 #
 
