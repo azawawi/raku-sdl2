@@ -6,7 +6,6 @@
 #
 
 use v6;
-use lib 'lib';
 use SDL2;
 use SDL2::Raw;
 

@@ -1,7 +1,7 @@
 {
   "name"          : "SDL2",
   "license"       : "MIT",
-  "version"       : "0.0.2",
+  "version"       : "0.0.3",
   "perl"          : "6.c",
   "description"   : "SDL2 with some OO-sugar.",
   "test-depends"  : [
@@ -11,9 +11,10 @@
   "auth"          : "github:azawawi",
   "authors"       : [ "Ahmad M. Zawawi" ],
   "provides"      : {
-    "SDL2::Window"   : "lib/SDL2/Window.pm6",
-    "SDL2::Renderer" : "lib/SDL2/Renderer.pm6"
+    "SDL2"           : "lib/SDL2.rakumod",
+    "SDL2::Window"   : "lib/SDL2/Window.rakumod",
+    "SDL2::Renderer" : "lib/SDL2/Renderer.rakumod"
   },
   "resources"     : [ ],
-  "source-url"    : "git://github.com/azawawi/perl6-sdl2.git"
+  "source-url"    : "git://github.com/azawawi/raku-sdl2.git"
 }

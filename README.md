@@ -1,6 +1,6 @@
 # SDL2
-
- [![Build Status](https://travis-ci.org/azawawi/perl6-sdl2.svg?branch=master)](https://travis-ci.org/azawawi/perl6-sdl2) [![Build status](https://ci.appveyor.com/api/projects/status/github/azawawi/perl6-sdl2?svg=true)](https://ci.appveyor.com/project/azawawi/perl6-sdl2/branch/master)
+[![Actions
+Status](https://github.com/azawawi/raku-sdl2/workflows/test/badge.svg)](https://github.com/azawawi/raku-sdl2/actions)
 
 This module adds some OO-sugar on top of [`SDL2::Raw`](https://github.com/timo/SDL2_raw-p6/).
 
@@ -9,7 +9,7 @@ a production environment.**
 
 ## Example
 
-```perl6
+```Raku
 use v6;
 
 use SDL2::Raw;
@@ -59,19 +59,19 @@ $ zef install sdl2
 
 - To run tests:
 ```
-$ prove -ve "perl6 -Ilib"
+$ prove --ext .rakutest -ve "raku -I."
 ```
 
 - To run all tests including author tests (Please make sure
 [Test::Meta](https://github.com/jonathanstowe/Test-META) is installed):
 ```
 $ zef install Test::META
-$ AUTHOR_TESTING=1 prove -e "perl6 -Ilib"
+$ AUTHOR_TESTING=1 prove --ext .rakutest -ve "raku -I."
 ```
 
 ## Author
 
-Ahmad M. Zawawi, [azawawi](https://github.com/azawawi/) on #perl6
+Ahmad M. Zawawi, [azawawi](https://github.com/azawawi/) on #raku
 
 ## License
 

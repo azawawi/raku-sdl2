@@ -3,7 +3,6 @@ use SDL2::Raw;
 use Cairo;
 use nqp;
 
-use lib 'lib';
 use SDL2;
 
 constant W = 1280;

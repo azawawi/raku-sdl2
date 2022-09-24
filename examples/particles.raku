@@ -1,5 +1,4 @@
 use SDL2::Raw;
-use lib 'lib';
 use SDL2;
 
 my int ($w, $h) = 800, 600;
